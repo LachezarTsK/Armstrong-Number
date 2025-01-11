@@ -5,10 +5,10 @@ public class Solution
 {
     public bool IsArmstrong(int value)
     {
-        return value == calculateSumOfDigitsRaisedToThePowerOfNumberOfDigits(value);
+        return value == CalculateSumOfDigitsRaisedToThePowerOfNumberOfDigits(value);
     }
 
-    private int calculateSumOfDigitsRaisedToThePowerOfNumberOfDigits(int value)
+    private int CalculateSumOfDigitsRaisedToThePowerOfNumberOfDigits(int value)
     {
         // regarding 'log10(value)' it is guaranteed that 'value > 0'
         // or more exactly '1 <= value <= pow(10,8)'
